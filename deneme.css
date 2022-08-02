@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+  }
+  body a {
+    color: #fff;
+  }
+  .container {
+    background: url("./mountain.jpg");
+    width:100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .header {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img {
+    height: 60px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 50px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .right-bar {
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+  }
+  .right-bar a {
+    text-decoration: none;
+  }
+  .double-icon {
+    background-color: #fff;
+    color: #222;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .input-area {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .input-area input {
+    margin-top: 80px;
+    width: 50%;
+    height: 80px;
+    border-radius: 50px;
+    outline: none;
+  }
+  .main-area {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: 30px;
+    color: #fff;
+    padding: 120px;
+    margin-left: 30px;
+  }
+  .main-area button {
+    font-size: 16px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 13px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: ease-in-out 200ms ;
+  }
+  .main-area button:hover {
+    background: none;
+    color: #fff;
+    outline: solid ;
+    font-size: 18px;
+  }
